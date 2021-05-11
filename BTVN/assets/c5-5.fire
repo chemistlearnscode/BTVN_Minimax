@@ -153,7 +153,7 @@
       "__type__": "cc.Vec3",
       "x": 0,
       "y": 0,
-      "z": 245.08518927099615
+      "z": 219.104427157463
     },
     "_scale": {
       "__type__": "cc.Vec3",
@@ -2269,7 +2269,13 @@
       "__id__": 41
     },
     "_enabled": true,
-    "itemPf": null,
+    "userlist": {
+      "__id__": 46
+    },
+    "itemPf": {
+      "__uuid__": "aff0cc0c-81b5-4cf6-a807-af18e904977c"
+    },
+    "_index": 0,
     "_id": "40Q5du9ZZAmJ2Bt1EW12Qq"
   },
   {
@@ -2870,6 +2876,9 @@
     "_enabled": true,
     "prog": {
       "__id__": 70
+    },
+    "richText": {
+      "__id__": 39
     },
     "_id": "47kUzheZpJ6aTaZjxgmuNK"
   },
