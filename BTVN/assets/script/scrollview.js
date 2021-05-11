@@ -13,15 +13,18 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
+        userlist:cc.ScrollView,
         itemPf:cc.Prefab,
+        _index:1,
     },
 
     updateList(arg) {
         // cc.log(arg)
         let item = cc.instantiate(this.itemPf);
         item.getComponent(cc.Label).string= arg;
-        item.y -=30;
-        
+        item.y -=30*this._index;
+        this._index++;
+        this.userlist.content.addChild(item);
     },
 
     // LIFE-CYCLE CALLBACKS:

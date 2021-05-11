@@ -14,6 +14,7 @@ cc.Class({
 
     properties: {
         prog:cc.ProgressBar,
+        richText:cc.RichText
     },
 
     // LIFE-CYCLE CALLBACKS:
@@ -26,7 +27,7 @@ cc.Class({
             // cc.log('ahihi')
             progress += speed;
         }else{
-
+            this.richText.string="<color=#ff0000>ĐỦ CHỈ TIÊU</c>"
         }
         this.prog.progress=progress
     },
